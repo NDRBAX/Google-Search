@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Search" />
+  <img src="./assets/preview.png" alt="Google-Search" />
 
 &#xa0;
 
