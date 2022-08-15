@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Image Search</title>
+</head>
+
+<body>
+    <div class="nav-links">
+        <ul>
+            <li>
+                <a class="links" href="https://accounts.google.com/">
+                    <button class="signbutton" type="button">Sign in</button>
+                </a>
+            </li>
+            <li>
+                <a href="#grid">
+                    <img class="grid" src="/assets/grid_icon.png" title="Google apps">
+                </a>
+            </li>
+            <li><a href="/advance.html">Advanced Search</a> </li>
+            <li><a href="index.html">Google Search</a></li>
+
+            <li><a href="https://mail.google.com/mail/">Gmail</a></li>
+        </ul>
+    </div>
+
+    <div class="center-screen">
+        <div class="logo">
+            <img alt="Google" src="/assets/googleimage.png">
+            <span class="page-name">images</span>
+        </div>
+        <form action="https://images.google.com/search">
+            <div class="bar">
+                <input type="hidden" name="tbm" value="isch">
+                <input class="searchbar" type="text" name="q" title="Search" placeholder="Image Search">
+                <a href="#"> <img class="voice" src="/assets/googlemic.png" title="Search by Voice"></a>
+            </div>
+            <div class="buttons">
+                <input class="button" type="submit" value="Image Search">
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
